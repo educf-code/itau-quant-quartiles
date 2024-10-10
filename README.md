@@ -1,2 +1,0 @@
-# itau-quant-quartiles
-
