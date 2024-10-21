@@ -3,7 +3,7 @@ import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
 
-# file_path = "C:\\Users\\Jorge\\OneDrive\\Quantiles\\bovespa_data.xlsx"
+# file_path = ""
 sheet_name = 'Percentuais'
 
 df = pd.read_excel(file_path, sheet_name=sheet_name, header=0)

@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# file_path = "C:\\Users\\Jorge\\OneDrive\\Quantiles\\bovespa_data.xlsx"
+# file_path = ""
 sheet_name = 'Sheet1'
 
 df = pd.read_excel(file_path, sheet_name=sheet_name, header=0)
