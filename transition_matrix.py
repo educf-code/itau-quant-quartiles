@@ -3,7 +3,7 @@ import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
 
-# file_path = ""
+file_path = "C:\\Users\\Jorge\\OneDrive\\Quantiles\\bovespa_data.xlsx"
 sheet_name = 'Percentuais'
 
 df = pd.read_excel(file_path, sheet_name=sheet_name, header=0)
@@ -71,8 +71,8 @@ for ticker in transition_matrices:
 # print(transition_matrices)
 
 exemplo_WEGE = transition_matrices['WEGE3.SA']
-df = pd.DataFrame(exemplo_WEGE)
-print(df)
+df_WEGE = pd.DataFrame(exemplo_WEGE)
+print(df_WEGE)
 
 
 sum = 0
@@ -99,4 +99,3 @@ def markov_graph(matrix):
     plt.show()
 
 markov_graph(exemplo_WEGE)
-
