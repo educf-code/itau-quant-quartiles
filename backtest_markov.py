@@ -39,13 +39,6 @@ class simulador:
         return value + self.cash
         
 
-        
-# ABEV3 {Num de cotas {Valor da cota}} 
 
-# Buy: Valor de cota (atual) x Num => Gastos
-
-# Dia 5: Compra 15 a 10 reais = 150 reais
-# Dia 10: Compra 15 a 12 reais = 180 reais
-# Dia 30: Vender 30 a 15 reais = 450 reais
 
 
